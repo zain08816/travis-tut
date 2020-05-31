@@ -10,6 +10,12 @@ describe("test sum function", () => {
         expect(result).toEqual(0);
     })
 
+    test("positive numbers", () => {
+        let result = sum([1, 3, 4]);
+
+        expect(result).toEqual(8);
+    });
+
     // more ideas for test cases
     // also test with some positive numbers
     // test with one number
