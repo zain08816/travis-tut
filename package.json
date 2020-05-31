@@ -1,0 +1,14 @@
+{
+  "name": "travis-tut",
+  "version": "1.0.0",
+  "description": "tutorial with travis-ci and jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Mickey J Winters",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^26.0.1"
+  }
+}
